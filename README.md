@@ -1,7 +1,4 @@
-Certainly! Here's a basic README template for your project named "GrouAlerts":
-
-```markdown
-# GrouAlerts
+# GroupAlerts
 
 GrouAlerts is a Discord bot that provides raid alerts in a designated channel.
 
@@ -63,6 +60,3 @@ Feel free to contribute to the project by opening issues or submitting pull requ
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-
-Make sure to replace placeholders like `your-username` and update any additional information based on your project's specifics.
