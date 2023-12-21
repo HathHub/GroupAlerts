@@ -16,13 +16,13 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/groualerts.git
+   git clone https://github.com/HathHub/GroupAlerts.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd groualerts
+   cd GroupAlerts
    ```
 
 3. Install dependencies:
