@@ -58,7 +58,7 @@ Make sure to replace `"YOUR_SELF_BOT_TOKEN_HERE"`, `"YOUR_NORMAL_BOT_TOKEN_HERE"
 Run the bot using the following command:
 
 ```bash
-npm start
+node index.js
 ```
 
 GrouAlerts will now be active and ready to provide raid alerts in the designated channel.
