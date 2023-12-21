@@ -33,15 +33,25 @@ Before you begin, ensure you have the following installed:
 
 ### Configuration
 
-1. Create a file named `.env` in the root of the project.
+1. **Replace Discord Bot Tokens:**
+   - Replace the selfbot token (`selfbotClient.login(...)`) with your own selfbot token.
+   - Replace the normal bot token (`normalClient.login(...)`) with your own normal bot token.
 
-2. Add your Discord bot token to the `.env` file:
+2. **Change Alert Channel ID:**
+   - Replace the channel ID in the line where `alertChannel` is assigned:
+     ```javascript
+     alertChannel = normalClient.channels.cache.get("YOUR_CHANNEL_ID_HERE");
+     ```
+     Replace `"YOUR_CHANNEL_ID_HERE"` with the actual ID of the Discord channel where you want to send raid alerts.
 
-   ```env
-   DISCORD_TOKEN=your-bot-token-here
-   ```
+After making these changes, your modified code should look something like this:
 
-   Replace `your-bot-token-here` with your actual Discord bot token.
+```javascript
+selfbotClient.login("YOUR_SELF_BOT_TOKEN_HERE");
+normalClient.login("YOUR_NORMAL_BOT_TOKEN_HERE");
+```
+
+Make sure to replace `"YOUR_SELF_BOT_TOKEN_HERE"`, `"YOUR_NORMAL_BOT_TOKEN_HERE"`, and `"YOUR_CHANNEL_ID_HERE"` with your actual selfbot token, normal bot token, and channel ID, respectively.
 
 ### Usage
 
