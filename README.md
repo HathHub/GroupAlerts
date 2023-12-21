@@ -63,10 +63,10 @@ node index.js
 
 GrouAlerts will now be active and ready to provide raid alerts in the designated channel.
 
-## Contributing
+## Disclaimer
 
-Feel free to contribute to the project by opening issues or submitting pull requests.
+This project utilizes a selfbot, which is discouraged by Discord's Terms of Service. The inclusion of a selfbot in this project is solely for educational purposes to showcase and learn about Discord bot development.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+**Important Note:**
+- Usage of selfbots violates Discord's Terms of Service, and it is strongly advised not to use selfbots in a production environment or on any server where you do not have explicit permission.
+- I do not encourage or endorse any misuse of Discord's platform.
